@@ -1,0 +1,11 @@
+git config --global user.name AnthonyRodrigues894
+git config --global user.email anthonyserrano894@gmail.com
+
+abrir o terminal - ctrl + '
+
+criar um projeto react native com expo:
+npx create-expo-app@latest SilvinhaHealthApp --template blank 
+
+cd SilvinhaHealthApp
+
+Extenção Pesquisa React -> ES7+ 
