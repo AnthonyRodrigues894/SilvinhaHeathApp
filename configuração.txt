@@ -8,4 +8,10 @@ npx create-expo-app@latest SilvinhaHealthApp --template blank
 
 cd SilvinhaHealthApp
 
-Extenção Pesquisa React -> ES7+ 
+Extenção Pesquisa React -> ES7+ react/redux/react
+
+atualizar os pacotes do node
+nmp i 
+
+executar o projeto 
+npx expo start --localhost --android
