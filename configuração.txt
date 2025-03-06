@@ -14,4 +14,3 @@ atualizar os pacotes do node
 npm i
 
 executar o projeto 
-npx expo start --localhost --android
