@@ -1,5 +1,5 @@
 import { StatusBar } from 'expo-status-bar';
-import { StyleSheet, Text, View, SafeAreaView } from 'react-native';
+import { StyleSheet, Text, View, SafeAreaView, TextInput } from 'react-native';
 
 export default function App() {
   return (
@@ -14,10 +14,23 @@ export default function App() {
 
     <View>
       <Text style={styles.label}>Altura</Text>
-      
+      <TextInput
+        style={styles.imput}
+        placeholder='Ex. 1.70'
+        keyboardType='numeric'
+      />
     </View>
 
+    <View style={{ marginTop: 25 }}>
+      <Text style={styles.label}>Peso</Text>
+      <TextInput
+        style={styles.imput}
+        placeholder='Ex. 80.360'
+        keyboardType='numeric'
+      />
     </View>
+
+  </View>
 
     <StatusBar style= "light" />
     </SafeAreaView>
@@ -57,5 +70,18 @@ subTitle: {
   color: '#ef233c',
   fontWeight: 'bold',
   marginBottom: 40,
+}, 
+label: {
+  color: '#000',
+  fontSize: 18,
+},
+input: {
+  height: 45,
+  width: '100%',
+  fontSize: 18,
+  borderColor: '#f233c',
+  borderWidth: 2,
+  marginVertical: 5, 
+  borderRadius: 30
 }
 });

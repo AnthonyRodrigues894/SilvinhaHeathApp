@@ -4,7 +4,7 @@ git config --global user.email anthonyserrano894@gmail.com
 abrir o terminal - ctrl + '
 
 criar um projeto react native com expo:
-npx create-expo-app@latest SilvinhaHealthApp --template blank 
+npx expo start --localhost --android
 
 cd SilvinhaHealthApp
 
